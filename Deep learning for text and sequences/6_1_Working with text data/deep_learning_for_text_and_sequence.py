@@ -59,6 +59,7 @@ def Six_two():
 2019_12_4
 '''
 
+
 from keras.preprocessing.text import Tokenizer
 
 def Six_three():
@@ -78,6 +79,10 @@ def Six_three():
     #找回单词索引
     word_index = tokenizer.word_index
     print('Found %s unique tokens.' % len(word_index))
+    print(word_index)
+
+
+
 
 if __name__ == '__main__':
     #Six_one()
